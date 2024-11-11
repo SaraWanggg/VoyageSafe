@@ -79,7 +79,7 @@ npm run start    # Start production server
 npm run lint     # Run ESLint
 ```
 
-###🔒 Security
+### 🔒 Security
 
 API keys are protected using environment variables
 Implementation includes error handling
@@ -100,5 +100,5 @@ Under these terms:
 
 ### 📧 Contact
 Sara Wang - sarawang1124@gmail.com
-Project Link: https://github.com/yourusername/voyagesafe
+Project Link: https://github.com/SaraWanggg/Voyagesafe
 
