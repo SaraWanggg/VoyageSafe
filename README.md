@@ -44,13 +44,13 @@ npm run dev
 
 ### Project Structure
 voyagesafe/
-├── app/                # Next.js app router
-│   ├── page.tsx       # Main page
-│   └── api/          # API test pages (Google Maps API, Rapid API, )
-├── components/        # React components
-├── utils/            # Utility functions
-│   └── googleMaps.ts # Maps API utilities
-└── public/           # Static assets
+├── app/                    # Next.js app router
+│   ├── page.tsx           # Main page
+│   └── api/               # API test pages (Google Maps API, Rapid API etc.)
+├── components/            # React components
+├── utils/                 # Utility functions
+│   └── googleMaps.ts     # Maps API utilities
+└── public/               # Static assets
 
 ### 🔑API Keys Required
 
