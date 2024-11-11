@@ -26,7 +26,7 @@ A modern AI-powered travel assistant that helps users plan safe trips by providi
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/voyagesafe.git
+git clone (https://github.com/SaraWanggg/Voyagesafe)
 
 ```
 2. Install dependencies:
@@ -43,14 +43,14 @@ npm run dev
 ```
 
 ### Project Structure
-voyagesafe/
-├── app                     # Next.js app router
-│   ├── page.tsx           # Main page
-│   └── api                # API test pages (Google Maps API, Rapid API)
-├── components             # React components
-├── utils                  # Utility functions
-│   └── googleMaps.ts      # Maps API utilities
-└── public                 # Static assets
+- **voyagesafe/**
+  - **app/** - Next.js app router
+    - `page.tsx` - Main page
+    - `api/` - API test pages (Google Maps API, Rapid API)
+  - **components/** - React components
+  - **utils/** - Utility functions
+    - `googleMaps.ts` - Maps API utilities
+  - **public/** - Static assets
 
 ### 🔑API Keys Required
 
