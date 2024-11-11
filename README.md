@@ -42,15 +42,33 @@ NEXT_API_KEY=your_api_key
 npm run dev
 ```
 
-### Project Structure
+### 📁 Project Structure
 - **voyagesafe/**
-  - **app/** - Next.js app router
-    - `page.tsx` - Main page
-    - `api/` - API test pages (Google Maps API, Rapid API)
-  - **components/** - React components
-  - **utils/** - Utility functions
-    - `googleMaps.ts` - Maps API utilities
+  - **.next/** - Next.js build output
+  - **app/** - Main application code
+    - **api/** - API endpoints
+      - **chat/** - Chat functionality endpoints
+      - **hotels/** - Hotel data endpoints
+      - **maps/** - Maps integration endpoints
+      - **safety/** - Safety information endpoints
+      - `maps.ts` - Maps utility functions (Google Map)
+  - **fonts/** - Custom font files
+  - `favicon.ico` - Website favicon
+  - `globals.css` - Global styles
+  - `layout.tsx` - Root layout component
+  - `page.jsx` - Main page component
+  - **components/** - Reusable React components
+  - **lib/** - Library code and utilities
+  - **node_modules/** - Project dependencies
   - **public/** - Static assets
+  - **utils/** - Utility functions
+  - `.env.local` - Local environment variables
+  - `.eslintrc.json` - ESLint configuration
+  - `.gitignore` - Git ignore rules
+  - `components.json` - Components configuration
+  - `logo.png` - Application logo
+  - `next-env.d.ts` - TypeScript declarations
+  - `next.config.js` - Next.js configuration
 
 ### 🔑API Keys Required
 
