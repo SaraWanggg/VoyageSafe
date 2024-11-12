@@ -2,6 +2,10 @@
 
 A modern AI-powered travel assistant that helps users plan safe trips by providing personalized safety recommendations, local insights, and real-time travel information.
 
+## Demo
+
+🚀 [Live Demo] (https://voyagesafe.click/)
+
 ## 🌟 Features
 
 - 🤖 AI-powered travel recommendations
